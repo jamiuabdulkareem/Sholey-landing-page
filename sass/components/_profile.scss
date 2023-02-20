@@ -1,0 +1,35 @@
+.home {
+  padding: 11rem 0;
+  background-color: $color-grey;
+  position: relative;
+
+  &__img {
+    //  @include gridCenter;
+
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    img {
+      border-radius: 50%;
+      border: 5px solid $white-color;
+      height: 100%;
+      width: 30rem;
+    }
+  }
+
+  &__heading {
+    margin-top: 20rem;
+
+    span {
+      font-weight: 300;
+    }
+  }
+
+  &__text {
+    font-size: 1.6rem;
+    color: #343a40;
+    margin: 0 32rem;
+  }
+}

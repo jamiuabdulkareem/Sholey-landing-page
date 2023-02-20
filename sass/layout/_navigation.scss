@@ -1,0 +1,11 @@
+.navigation {
+  background-color: $primary-color;
+  padding: 0.5rem;
+
+  &__logo {
+    display: block;
+    font-size: 5rem;
+    color: $white-color;
+    padding-left: 3rem;
+  }
+}

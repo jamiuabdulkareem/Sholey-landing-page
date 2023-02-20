@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  font-family: "Montserrat", sans-serif; }
+
+.secondary-heading {
+  font-size: 5rem;
+  font-weight: 700;
+  color: #051422;
+  text-transform: uppercase; }
+
+.primary-heading {
+  font-size: 3.5rem;
+  font-weight: 500; }
+
+.u-text-center {
+  text-align: center !important; }
+
+.u-margin-top-small {
+  margin-top: 1.6rem !important; }
+
+.u-margin-top-md {
+  margin-top: 5.5rem !important; }
+
+.u-margin-bottom-small {
+  margin-bottom: 1.5rem !important; }
+
+.u-margin-bottom-md {
+  margin-bottom: 9rem; }
+
+.home {
+  padding: 11rem 0;
+  background-color: #e9ecef;
+  position: relative; }
+  .home__img {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+    .home__img img {
+      border-radius: 50%;
+      border: 5px solid #fff;
+      height: 100%;
+      width: 30rem; }
+  .home__heading {
+    margin-top: 20rem; }
+    .home__heading span {
+      font-weight: 300; }
+  .home__text {
+    font-size: 1.6rem;
+    color: #343a40;
+    margin: 0 32rem; }
+
+.navigation {
+  background-color: #1864ab;
+  padding: 0.5rem; }
+  .navigation__logo {
+    display: block;
+    font-size: 5rem;
+    color: #fff;
+    padding-left: 3rem; }
+
+.about {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 20rem 15rem;
+  padding-bottom: 10rem; }
+  .about__img {
+    height: auto;
+    width: 40rem; }
+  .about__heading {
+    font-size: 5rem;
+    font-weight: 700;
+    color: #051422;
+    text-transform: lowercase; }
+  .about span {
+    font-weight: 300; }
+
+.section-portfolio {
+  padding: 40rem 0;
+  position: relative; }
+
+.portfolio {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-top: 5px solid #051422; }
+  .portfolio__tittle {
+    font-size: 4.5rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #051422; }
+  .portfolio span {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: 9rem; }
+  .portfolio__dir {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    text-align: center;
+    color: #051422; }
