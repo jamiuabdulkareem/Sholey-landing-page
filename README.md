@@ -18,7 +18,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [click here](https://musical-lebkuchen-d28c7d.netlify.app/)
+- Project URL: [click here](https://musical-lebkuchen-d28c7d.netlify.app/)
 
 ## My process
 
